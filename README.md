@@ -28,3 +28,10 @@ remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 9
 Unpacking objects: 100% (9/9), done.
 [INFO] All done.
 ```
+```
+$ ./gitManager.sh gallorob sisop_program
+[INFO] Folder sisop_program found.
+[INFO] Folder sisop_program contains a valid GitHub repository.
+Already up to date.
+[INFO] All done.
+```
