@@ -35,3 +35,20 @@ $ ./gitManager.sh gallorob sisop_program
 Already up to date.
 [INFO] All done.
 ```
+
+
+### terminatePrcs
+Purpose: kill a process by its name
+
+Usage: `./terminatePrcs.sh processName`
+
+Example run:
+```
+$ ./terminatePrcs.sh gedit
+[WARN] Executing => kill -SIGTERM 4807
+[SUCCESS] Process "gedit" killed.
+```
+```
+$ ./terminatePrcs.sh gedit
+[ERROR] Process "gedit" doesn't exist.
+```
