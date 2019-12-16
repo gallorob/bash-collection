@@ -18,7 +18,7 @@ if ! [ -z $1 ]; then
 	esac
 else
     key=`cat /sys/firmware/acpi/tables/MSDM | grep -aoP '[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z0-9]{5}'`
-	echo "[KEY:] $key"
+	echo "Key: $key"
 fi
 
 

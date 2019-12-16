@@ -61,4 +61,4 @@ Usage: `sudo ./productKeyExtractor`
 Example run:
 ```
 # sudo ./productKeyExtractor
-[KEY:] XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+Key: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
