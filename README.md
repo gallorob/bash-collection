@@ -52,3 +52,13 @@ $ ./terminatePrcs.sh gedit
 $ ./terminatePrcs.sh gedit
 [ERROR] Process "gedit" doesn't exist.
 ```
+
+### productKeyExtractor
+Purpose: retrieve Windows key from ACPI tables<br>
+<br>
+Usage: `sudo ./productKeyExtractor`
+
+Example run:
+```
+# sudo ./productKeyExtractor
+[KEY:] XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
